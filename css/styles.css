@@ -500,6 +500,37 @@ img {
   margin: 1rem 0;
 }
 
+/* Social */
+.social {
+  background: var(--dark-color);
+  color: #fff;
+  padding: 6rem 2rem;
+  text-align: center;
+  font-size: 1.7rem;
+  margin-bottom: 0;
+}
+
+.social a,
+.footer a {
+  color: #fff;
+}
+
+.social a:hover,
+.footer a:hover {
+  color: var(--secondary-color);
+}
+
+.social p {
+  margin-bottom: 2rem;
+}
+
+.social .social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
 /* Media Queries */
 
 @media (max-width: 768px) {
